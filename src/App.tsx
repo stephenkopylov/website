@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import {AiFillLinkedin, AiFillGithub, AiFillInstagram, AiOutlineMail} from 'react-icons/ai';
+import {AiFillLinkedin, AiFillGithub, AiFillInstagram} from 'react-icons/ai';
+import {HiOutlineMail} from 'react-icons/hi';
 import Lottie from "lottie-react";
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import {initializeApp} from "firebase/app";
 
 import animation from "./static/data.json";
 
@@ -17,7 +17,7 @@ const firebaseConfig = {
     measurementId: "G-N25NTT4HEX"
 };
 
-const app = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 
 function App() {
     return (
@@ -28,17 +28,21 @@ function App() {
                     Hi, I'm Stephen
                 </p>
                 <p className="Link-p">
-                    <a className="Link-a" href={'http://github.com/stephenkopylov'}
-                       target={'_blank'}><AiFillGithub/></a>
+                    <a className="Link-a" href={'https://github.com/stephenkopylov'}
+                       target={'_blank'}
+                       rel={'noreferrer'}><AiFillGithub/></a>
                     <a className="Link-a"
                        href={'https://www.linkedin.com/in/stephen-kopylov/'}
-                       target={'_blank'}><AiFillLinkedin/></a>
+                       target={'_blank'}
+                       rel={'noreferrer'}><AiFillLinkedin/></a>
                     <a className="Link-a"
                        href={'mailto:newonxp@gmail.com'}
-                       target={'_blank'}><AiOutlineMail/></a>
+                       target={'_blank'}
+                       rel={'noreferrer'}><HiOutlineMail/></a>
                     <a className="Link-a"
                        href={'https://www.instagram.com/newon/'}
-                       target={'_blank'}><AiFillInstagram/></a>
+                       target={'_blank'}
+                       rel={'noreferrer'}><AiFillInstagram/></a>
                 </p>
             </header>
         </div>
