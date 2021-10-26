@@ -1,25 +1,47 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-header {
-  background-color: #000000;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Lottie {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 0;
+}
+
+.Main-p {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.Link-p {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.Link-a {
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 a {
-  color: #FFFFFF;
-  text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 a:hover {
-  color:#FFFFFF;
-  text-decoration:none;
-  cursor:pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
 }
