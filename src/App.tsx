@@ -18,7 +18,6 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 function App() {
     return (
@@ -26,7 +25,7 @@ function App() {
             <header className="App-header">
                 <Lottie className={"Lottie"} animationData={animation}/>
                 <p className="Main-p">
-                    Hi, I'm Stephen!
+                    Hi, I'm Stephen
                 </p>
                 <p className="Link-p">
                     <a className="Link-a" href={'http://github.com/stephenkopylov'}
