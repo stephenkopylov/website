@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Lottie style={{width:100, height:100}} animationData={groovyWalkAnimation} />
+        <Lottie style={{width:300, height:100}} animationData={groovyWalkAnimation} />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
