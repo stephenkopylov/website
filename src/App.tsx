@@ -54,7 +54,7 @@ function App() {
                             native modules using C++, Kotlin, ObjectiveC, Swift, and Typescript.
                             <br/>
                             <br/>
-                            At the moment I'm not looking for a job offer, but if you need any help regarding React and
+                            At the moment I'm not looking for a career change, but if you need any help regarding React and
                             React Native development - don't hesitate to contact me using the links below.
                         </p>
                     </motion.div>
