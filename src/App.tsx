@@ -55,7 +55,7 @@ function App() {
                             <br/>
                             <br/>
                             At the moment I'm not looking for a job offer, but if you need any help regarding React and
-                            React Native development - dont hesitate to contact me using links below.
+                            React Native development - don't hesitate to contact me using links below.
                         </p>
                     </motion.div>
                 </AnimatePresence>
