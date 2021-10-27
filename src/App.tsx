@@ -45,17 +45,17 @@ function App() {
                             Last 15+ years I've been developing web/mobile apps and games.
                             <br/>
                             <br/>
-                            After reaching senior position in iOS development I moved to cross-platform and started
+                            After reaching a senior position in iOS development I moved to cross-platform and started
                             using React Native in our projects.
                             <br/>
                             <br/>
                             Right now in <a href={"https://ibitcy.com/"} target={'_blank'}
                                             rel={'noreferrer'}>IBIT</a> my team and I are creating React Native apps and
-                            native modules using C++, Kotlin, ObjectiveC, Swift and Typescript.
+                            native modules using C++, Kotlin, ObjectiveC, Swift, and Typescript.
                             <br/>
                             <br/>
                             At the moment I'm not looking for a job offer, but if you need any help regarding React and
-                            React Native development - don't hesitate to contact me using links below.
+                            React Native development - don't hesitate to contact me using the links below.
                         </p>
                     </motion.div>
                 </AnimatePresence>
