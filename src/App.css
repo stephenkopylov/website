@@ -25,9 +25,22 @@
     margin-bottom: 40px;
 }
 
+.Hidden-p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    max-width: 300px;
+}
+
+.Main-a {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
 .Link-p {
     font-size: 24px;
-    margin-top: 0;
+    margin-top: 40;
 }
 
 .Link-a {
