@@ -34,8 +34,8 @@ function App() {
                         setVisible(!visible);
                     }}>
                     Hi, I'm Stephen
-                    {visible ? <AiFillUpCircle size={16} style={{margin: 10, verticalAlign: 'middle'}}/> :
-                        <AiFillDownCircle size={16} style={{margin: 10, verticalAlign: 'middle'}}/>}
+                    {visible ? <AiFillUpCircle size={16} style={{verticalAlign: 'middle', marginLeft: 10}}/> :
+                        <AiFillDownCircle size={16} style={{verticalAlign: 'middle', marginLeft: 10}}/>}
                 </a>
                 <AnimatePresence initial={false}>
                     <motion.div style={{overflow: 'hidden'}}
@@ -54,7 +54,8 @@ function App() {
                             native modules using C++, Kotlin, ObjectiveC, Swift, and Typescript.
                             <br/>
                             <br/>
-                            At the moment I'm not looking for a career change, but if you need any help regarding React and
+                            At the moment I'm not looking for a career change, but if you need any help regarding React
+                            and
                             React Native development - don't hesitate to contact me using the links below.
                         </p>
                     </motion.div>
