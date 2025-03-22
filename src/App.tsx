@@ -49,7 +49,7 @@ function App() {
                             using React Native in our projects.
                             <br/>
                             <br/>
-                            Right now in <a href={"https://ibitcy.com/"} target={'_blank'}
+                            Right now in <a className="Hidden-a" href={"https://ibitcy.com/"} target={'_blank'}
                                             rel={'noreferrer'}>IBIT</a> my team and I are creating React Native apps and
                             native modules using C++, Kotlin, ObjectiveC, Swift, and Typescript.
                             <br/>
