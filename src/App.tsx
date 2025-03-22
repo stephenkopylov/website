@@ -4,22 +4,22 @@ import {AiFillLinkedin, AiFillGithub, AiFillInstagram, AiFillDownCircle, AiFillU
 import {HiOutlineMail} from 'react-icons/hi';
 import Lottie from "lottie-react";
 import {initializeApp} from "firebase/app";
-
+import {getAnalytics, logEvent} from "firebase/analytics";
 import animation from "./static/data.json";
-
 import {AnimatePresence, motion} from "framer-motion"
 
 const firebaseConfig = {
     apiKey: "AIzaSyAy0-BgvHaOiUQd2xXKqi-TGJ1YNoNnVjA",
     authDomain: "stephenkopylov-com.firebaseapp.com",
     projectId: "stephenkopylov-com",
-    storageBucket: "stephenkopylov-com.appspot.com",
+    storageBucket: "stephenkopylov-com.firebasestorage.app",
     messagingSenderId: "424940963611",
     appId: "1:424940963611:web:7ca8a5b2c10b602ac435be",
     measurementId: "G-N25NTT4HEX"
 };
 
-initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 function App() {
     const [visible, setVisible] = useState(false);
@@ -31,6 +31,7 @@ function App() {
                 <a
                     className="Main-a"
                     onClick={() => {
+                        logEvent(analytics, `click_${visible ? 'hide' : 'show'}_about`);
                         setVisible(!visible);
                     }}>
                     Hi, I'm Stephen
